@@ -2,17 +2,9 @@
 
 Ez a reklám típus videó tartalom megjelenítésére szolgál.
 
-## Fejlesztése
-
-A /multiplex/ könyvtáron belül található "multiplex.html" megnyitása a böngészőben demonstrálja a megjelenést offline módon. Itt lehet szerkeszteni a megjelenés forrását. Az alábbi sor jelöli a kezdetét a multiplex megjelenés forráskódjának:
-
-```html
-<div id="multiplex_container"...
-```
-
 ## Használata
 
-A /multiplex/ könyvtáron belül található "multiplex_code.html" tartalmát kell felvenni HTML-ként az adengine-be. Ez mindig a tömörített javascripteket és a CSS-eket, illetve azokra történő hivatkozásokat kell, hogy tartalmazza, melyeket előzetesen a "multiplex.html" fájlban dolgoztunk ki tömörítettlenül. 
+A "multiplex" könyvtáron belül található "multiplex_code.html" tartalmát kell felvenni HTML-ként az adengine-be.
 
 ## A használathoz szükséges fájlok
 
