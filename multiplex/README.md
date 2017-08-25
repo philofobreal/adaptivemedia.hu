@@ -18,18 +18,18 @@ A /multiplex/ könyvtáron belül található "multiplex_code.html" tartalmát k
 
 "adaptiveMultiplex.css"
 "adaptiveMultiplex.min.js"
-videó fájlok,
-előnézeti kép fájl
+2 videó fájl kell (MP4, Webm),
+1 előnézeti kép fájl
 ### Előnézeti kép tulajdonságai:
-1160x773px
+#### Méret: 1160x773px, max 500Kbyte,
 
 ### Videó fájlok tulajdonságai:
-képarány:16:9
-A két videó kiterjesztése: 
-#### egyik videó: MP4, amelyben H.264 a videó és MP3 a hang enkódolása. 
-#### másik videó: Webm, Vorbis enkódolású
+#### Képarány:16:9
+#### Méret: max 10Mbyte
+#### -Első videó: MP4, amelyben H.264 a videó és MP3 a hang enkódolása. 
+#### -Második videó: Webm, Vorbis enkódolású
 
-##### Mozzila leírása a böngésző támogatottságról és enkódolásról: https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats
+##### Mozilla leírása a böngésző támogatottságról és enkódolásról: https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats
 
 Ezeket a fájlokat fel kell venni az adengine-be és bekötni a "multiplex_code.html" fájlon belül látható módon a megfelelő helyekre.
 
@@ -63,7 +63,7 @@ Az alábbi konfigurációs objektumban lehet beállítani kattintási kódot, el
     </script>
 ```
 
-A <source> HTML tagok "src" attributumaiban lehet megadni a különböző videó fájl formátumok URL-jeit.
+A <source> HTML tagok "src" attributumaiban lehet megadni a különböző videó fájl formátumok URL-jeit. Az első a Webm kiterjesztés, a második az MP4 kiterjesztés.
 
 ```html
     <video id="adaptiveMultiplexVideo" class="video-js vjs-default-skin" controls preload="auto" width="100%" height="100%" data-setup='{ "inactivityTimeout": 0 }' webkit-playsinline playsinline>
