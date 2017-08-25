@@ -1,0 +1,44 @@
+<div id="multiplex_container" class="multiplex_container">
+
+    <link href="//bbcdn.go.cz.bbelements.com/creatives/b81/847/7/b818477/extra/adaptiveMultiplex.min.css" rel="stylesheet">
+
+    <style>
+        video::-webkit-media-controls-panel,video::-webkit-media-controls-panel-container,video::-webkit-media-controls-start-playback-button{display:none!important;-webkit-appearance:none}video::-webkit-media-controls-panel-container{display:none!important}.multiplex_container{overflow:hidden;width:100%;max-width:1160px;height:0}#adaptiveMultiplexVideo{position:relative;width:100%;padding-top:66.639%;visibility:hidden}.landing_holder_container{position:absolute;z-index:100;width:100%;max-width:1160px;max-height:773px}.video-js .vjs-big-play-button,.video-js .vjs-big-play-button:focus,.video-js:hover .vjs-big-play-button{background-color:rgba(128,128,128,.4);border:.1px solid #ccc;transition:unset;height:100px;width:100px;border-radius:16.3em}.video-js .vjs-big-play-button:hover{background-color:rgba(189,189,189,.4)}.vjs-big-play-button{visibility:hidden}#multiplex_container .video-js .vjs-big-play-button .vjs-icon-placeholder:before{content:"\f101";font-size:70px;padding-top:26px}#adaptiveMultiplexVideo_html5_api,.vjs-poster{pointer-events:none;cursor:pointer;background-color:transparent}#_vjs-poster_,#adaptiveMultiplexVideo{cursor:pointer}.video-js .vjs-control-bar{background-color:rgba(43,51,63,.4)}
+    </style>
+
+    <script>
+        adaptiveMediaMultiplexConfig = {
+            clickURL: 'http://adaptivemedia.hu',
+            clickTarget: '_blank',
+            video: {
+                url: {
+                    previewImage: 'https://bbcdn.go.cz.bbelements.com/creatives/b81/847/7/b818477/extra/poster_.jpg'
+                },
+                events: {
+                    manual_expand: 'https://go.eu.bbelements.com/please/track/adDisplay/campaign/196751/plan/769887/banner/824621/bannerType/9/?',
+                    end: 'https://go.eu.bbelements.com/please/track/adDisplay/campaign/196751/plan/769890/banner/824621/bannerType/9/?',
+                    proc01: {
+                        percentage: 50,
+                        url: 'https://go.eu.bbelements.com/please/track/adDisplay/campaign/196751/plan/769882/banner/824621/bannerType/9/?'
+                    },
+                    proc02: {
+                        percentage: 75,
+                        url: 'https://go.eu.bbelements.com/please/track/adDisplay/campaign/196751/plan/769884/banner/824621/bannerType/9/?'
+                    }
+                }
+            }
+        }
+    </script>
+
+    <video id="adaptiveMultiplexVideo" class="video-js vjs-default-skin" controls preload="auto" width="100%" height="100%" data-setup='{ "inactivityTimeout": 0 }'
+        webkit-playsinline playsinline>
+        <source src="//bbcdn.go.cz.bbelements.com/creatives/b81/847/7/b818477/extra/egyenesen_at.webm" id="adaptiveMultiplexVideoWEBM"
+            type="video/webm" />
+        <source src="//bbcdn.go.cz.bbelements.com/creatives/b81/847/7/b818477/extra/egyenesen_at.mp4" id="adaptiveMultiplexVideoMP4"
+            type="video/mp4" />
+        <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/"
+                target="_blank">supports HTML5 video</a></p>
+    </video>
+
+    <script src="//bbcdn.go.cz.bbelements.com/creatives/b81/847/7/b818477/extra/adaptiveMultiplex.min.js"></script>
+</div>
