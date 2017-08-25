@@ -18,9 +18,14 @@ A /multiplex/ könyvtáron belül található "multiplex_code.html" tartalmát k
 
 "adaptiveMultiplex.css"
 "adaptiveMultiplex.min.js"
+videó fájlok,
+előnézeti kép fájl
+### Előnézeti kép tulajdonságai:
+1160x773px
 
-###Továbbá egy két videó fájl:
-
+### Videó fájlok tulajdonságai:
+képarány:16:9
+kiterjesztések: MP4, amely H.264 és MP3 a hang enkódolása
 
 Ezeket a fájlokat fel kell venni az adengine-be és bekötni a "multiplex_code.html" fájlon belül látható módon a megfelelő helyekre.
 
