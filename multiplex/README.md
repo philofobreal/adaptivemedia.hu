@@ -25,7 +25,11 @@ előnézeti kép fájl
 
 ### Videó fájlok tulajdonságai:
 képarány:16:9
-kiterjesztések: MP4, amely H.264 és MP3 a hang enkódolása
+A két videó kiterjesztése: 
+#### egyik videó: MP4, amelyben H.264 a videó és MP3 a hang enkódolása. 
+#### másik videó: Webm, Vorbis enkódolású
+
+##### Mozzila leírása a böngésző támogatottságról és enkódolásról: https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats
 
 Ezeket a fájlokat fel kell venni az adengine-be és bekötni a "multiplex_code.html" fájlon belül látható módon a megfelelő helyekre.
 
