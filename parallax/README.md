@@ -8,10 +8,15 @@ A "parallax" könyvtáron belül található "parallax_code.html" tartalmát kel
 
 ## A desktop és mobil megjelenéshez szükséges fájlok
 
-"AdaptiveMediaParallax.min.js" és 4 darab kép
+"AdaptiveMediaParallax.min.js" és 2 darab kép
 
-* Háttérkép kép tulajdonságai
+* Desktop háttérkép tulajdonságai
     * Méret: 2048x2414px, max 500Kbyte,
+    * ** pl: ** desktop_background.jpg
+
+* Mobil háttérkép tulajdonságai
+    * Méret: 3760x1200px, max 500Kbyte,
+    ** pl: ** mobile_banner.jpg
 
 ### Videó fájlok tulajdonságai:
 #### Képarány:16:9
@@ -42,11 +47,11 @@ Az alábbi konfigurációs objektumban lehet beállítani kattintási kódot, k�
                     imagePosition: '-28%',
                     imageWidth: '122%',
                     iconEffect: 'blinker blink_me',
-                    imageUrl: 'https://bbcdn.go.cz.bbelements.com/creatives/....../...../.../mobilParallax_banner_02.jpg',
+                    imageUrl: 'https://bbcdn.go.cz.bbelements.com/creatives/....../...../.../mobile_banner.jpg',
                 },
                 backgroundLayers: [
                     {
-                        imageUrl: 'https://bbcdn.go.cz.bbelements.com/creatives/....../...../.../gate_background_pix_.jpg',
+                        imageUrl: 'https://bbcdn.go.cz.bbelements.com/creatives/....../...../.../desktop_background.jpg',
                         layerDepth: '0.00',
                         animatedClass: ''
                     },
