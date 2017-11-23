@@ -1,6 +1,6 @@
 # Adaptive Media - 444.hu Parallax megjelenés
 
-Ez a reklám típus videó tartalom megjelenítésére szolgál.
+Ez egy multiplatformos interaktív hirdetési típus. A felhasználó egér, illetve mobil eszközének mozgását követi le a hirdetési anyag mozgatásával.
 
 ## Használata
 
