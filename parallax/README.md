@@ -25,11 +25,12 @@ A "parallax" könyvtáron belül található "parallax_code.html" tartalmát kel
 
 Ezeket a fájlokat fel kell venni az adengine-be és bekötni a "parallax_code.html" fájlon belül látható módon a megfelelő helyekre.
 
-## "parallax_code.html" fájl felépítése és használata
+## "parallax_code.html" fájl használata
 
-Az alábbi konfigurációs objektumban lehet beállítani kattintási kódot, képeket és a működéshez szükséges beállításokat.
+Az alábbi konfigurációs objektumban lehet beállítani kattintási kódot, képeket és a működéshez szükséges paramétereket. Desktop környezetben a desktop banner kódja alá kell bemásolni a teljes "parallax_code.html" fájl tartalmát.
 
 ```html
+    ...
     <script>
         adaptiveMediaParallaxConfig = {
             clickURL: 'http://bmw.hu',
@@ -66,6 +67,7 @@ Az alábbi konfigurációs objektumban lehet beállítani kattintási kódot, k�
             }
         }
     </script>
+    ...
 ```
 
 ## parallax konfigurációs paraméterek
