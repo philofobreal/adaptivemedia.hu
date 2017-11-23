@@ -1,4 +1,4 @@
-# Adaptive Media - Multiplex megjelenés
+# Adaptive Media - Parallax megjelenés
 
 Ez a reklám típus videó tartalom megjelenítésére szolgál.
 
@@ -8,7 +8,7 @@ A "parallax" könyvtáron belül található "parallax_code.html" tartalmát kel
 
 ## A desktop és mobil megjelenéshez szükséges fájlok
 
-"AdaptiveMediaParallax.min.js" és 2 darab kép
+"AdaptiveMediaParallax.min.js" és 2 darab kép (desktop és mobil megjelenéshez)
 
 * Desktop háttérkép tulajdonságai
     * Méret: 2048x2414px, max 500Kbyte,
@@ -16,13 +16,7 @@ A "parallax" könyvtáron belül található "parallax_code.html" tartalmát kel
 
 * Mobil háttérkép tulajdonságai
     * Méret: 3760x1200px, max 500Kbyte,
-    **pl:** mobile_banner.jpg
-
-### Videó fájlok tulajdonságai:
-#### Képarány:16:9
-#### Méret: max 10Mbyte
-#### -Első videó: MP4, amelyben H.264 a videó és MP3 a hang enkódolása. 
-#### -Második videó: Webm, Vorbis enkódolású
+    * **pl:** mobile_banner.jpg
 
 ##### Mozilla leírása a böngésző DeviceMotion események támogatottságról: https://developer.mozilla.org/en-US/docs/Web/API/DeviceMotionEvent
 
@@ -30,7 +24,7 @@ Ezeket a fájlokat fel kell venni az adengine-be és bekötni a "parallax_code.h
 
 ## "parallax_code.html" fájl felépítése és használata
 
-Az alábbi konfigurációs objektumban lehet beállítani kattintási kódot, képekett, statisztikai események URL kéréseit és a működéshez szükséges beállításokat.
+Az alábbi konfigurációs objektumban lehet beállítani kattintási kódot, képekett és a működéshez szükséges beállításokat.
 
 ```html
     <script>
@@ -71,4 +65,8 @@ Az alábbi konfigurációs objektumban lehet beállítani kattintási kódot, k�
     </script>
 ```
 
+## parallax konfigurációs paraméterek
+* **isMobile**: "true" értéket kell megadni ha mobil megjelenésként vesszük fel. "false" értéket kell megadni, ha desktop megjelenéshez vesszük fel. [true/false]
+* **speed**: **Mobil megjelenés** esetén az eszköz mozgásérzékenységét tudjuk állítani. Egy olyan tört számot adhatunk meg, ami összeszorzódik a szenzor mért gyorsulás értékével. [9.5]
+* **IOSSpeed**: **Mobil megjelenés** esetén az eszköz mozgásérzékenységét tudjuk állítani. Egy olyan tört számot adhatunk meg, ami összeszorzódik a szenzor mért gyorsulás értékével. [0.030]
 
