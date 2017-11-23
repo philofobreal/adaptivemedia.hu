@@ -5,7 +5,7 @@ Ez egy multiplatformos interaktív hirdetési típus. A felhasználó egér, ill
 ## Használata
 
 A "parallax" könyvtáron belül található "parallax_code.html" tartalmát kell felvenni HTML-ként az adengine-be. 
-Érdemes külön desktop és külön mobil kódot készíteni. A desktop kód fölé behelyezhető html banner. **Fontos, hogy az "isMobile" paraméter desktop-on "false", mobilon "true" értékre legyen állítva!** 
+Érdemes külön desktop és külön mobil kódot készíteni belőle. A desktop kód fölé behelyezhető html banner. **Fontos, hogy az "isMobile" paraméter desktop-on "false", mobilon "true" értékre legyen állítva!** Az "isMobile" paraméterrel lehet átadni a platform megállapítást az adengine-nek. Így a mobilra szánt kódban az "isMobile: true", a desktop-ra szánt kódban a "isMobile: false" értékmegadás a helyes. 
 
 ## A desktop és mobil megjelenéshez szükséges fájlok
 
