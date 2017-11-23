@@ -4,18 +4,19 @@ Ez a reklám típus videó tartalom megjelenítésére szolgál.
 
 ## Használata
 
-A "parallax" könyvtáron belül található "parallax_code.html" tartalmát kell felvenni HTML-ként az adengine-be.
+A "parallax" könyvtáron belül található "parallax_code.html" tartalmát kell felvenni HTML-ként az adengine-be. 
+Érdemes külön desktop és külön mobil kódot készíteni. A desktop kód fölé behelyezhető html banner. **Fontos, hogy az "isMobile" paraméter desktop-on "false", mobilon "true" értékre legyen állítva!** 
 
 ## A desktop és mobil megjelenéshez szükséges fájlok
 
-"AdaptiveMediaParallax.min.js" és 2 darab kép (desktop és mobil megjelenéshez)
+"AdaptiveMediaParallax.min.js" és 1 darab desktop és 1 darab mobil háttérkép
 
-* Desktop háttérkép tulajdonságai
+* **Desktop háttérkép tulajdonságai**
     * Méret: 2048x2414px, max 500Kbyte,
     * Design tulajdonságok: A 444.hu háttérszínétől **whitesmoke: #f5f5f5** nagyban nem üthet el a desktop reklám grafikája. A mintán látható mennyiségű rekláminformáció szerepelhet csak a képen.
     * **minta:** desktop_background.jpg
 
-* Mobil háttérkép tulajdonságai
+* **Mobil háttérkép tulajdonságai**
     * **Méret:** 3760x1200px, max 500Kbyte,
     * **Design tulajdonságok:** A mintában megadott módon lehet felosztani a jobb és bal szélekre elhelyezhető reklám területeket. Nem kell élesen elkülöníteni ezeket a területeket, viszont oldalbetöltődéskor a jobb és bal széleken lévő területek nem fognak látszódni. Csak a mobil eszköz elfordítása után válnak láthatóvá. 
     * **minta:** mobile_banner.jpg
@@ -26,7 +27,7 @@ Ezeket a fájlokat fel kell venni az adengine-be és bekötni a "parallax_code.h
 
 ## "parallax_code.html" fájl felépítése és használata
 
-Az alábbi konfigurációs objektumban lehet beállítani kattintási kódot, képekett és a működéshez szükséges beállításokat.
+Az alábbi konfigurációs objektumban lehet beállítani kattintási kódot, képeket és a működéshez szükséges beállításokat.
 
 ```html
     <script>
@@ -68,6 +69,8 @@ Az alábbi konfigurációs objektumban lehet beállítani kattintási kódot, k�
 ```
 
 ## parallax konfigurációs paraméterek
+* **layerDepth**: **Desktop megjelenés** esetén az egér mozgását követő rétegek tér érzetének mélységi értékét tudjuk megadni. **[0.00 - 0.99]**
+
 * **isMobile**: **"true"** értéket kell megadni ha mobil megjelenésként vesszük fel. **"false"** értéket kell megadni, ha desktop megjelenéshez vesszük fel. **[true/false]**
 * **speed**: **Mobil megjelenés** esetén az eszköz mozgásérzékenységét tudjuk állítani **Nem IOS** környezetekben. Egy olyan tört számot adhatunk meg, ami összeszorzódik a szenzor mért gyorsulás értékével. 
 * **IOSSpeed**: **Mobil megjelenés** esetén az eszköz mozgásérzékenységét tudjuk állítani **IOS** környezetekben. Egy olyan tört számot adhatunk meg, ami összeszorzódik a szenzor mért gyorsulás értékével. 
@@ -76,5 +79,3 @@ Az alábbi konfigurációs objektumban lehet beállítani kattintási kódot, k�
 * **imagePosition**: **Mobil megjelenés** esetén a parallax mobil banner képét tudjuk pozícionálni.
 * **imageWidth**: **Mobil megjelenés** esetén a parallax mobil banner képét tudjuk méretezni.
 * **iconEffect**: **Mobil megjelenés** esetén az eszköz elfordítására buzdító piktogram css class megadásának lehetősége. A piktogram villogásának, illetve egyéb más figyelem felkeltő animációs tulajdonáságait itt tudjuk css class-okkal megadni.
-
-* **layerDepth**: **Desktop megjelenés** esetén az egér mozgását követő rétegek térérzet mélységének értékét tudjuk megadni. **[0.00 - 0.99]**
