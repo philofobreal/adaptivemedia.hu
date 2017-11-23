@@ -1,4 +1,4 @@
-# Adaptive Media - Parallax megjelenés
+# Adaptive Media - 444.hu Parallax megjelenés
 
 Ez a reklám típus videó tartalom megjelenítésére szolgál.
 
@@ -12,11 +12,13 @@ A "parallax" könyvtáron belül található "parallax_code.html" tartalmát kel
 
 * Desktop háttérkép tulajdonságai
     * Méret: 2048x2414px, max 500Kbyte,
-    * **pl:** desktop_background.jpg
+    * Design tulajdonságok: A 444.hu háttérszínétől **whitesmoke: #f5f5f5** nagyban nem üthet el a desktop reklám grafikája. A mintán látható mennyiségű rekláminformáció szerepelhet csak a képen.
+    * **minta:** desktop_background.jpg
 
 * Mobil háttérkép tulajdonságai
-    * Méret: 3760x1200px, max 500Kbyte,
-    * **pl:** mobile_banner.jpg
+    * **Méret:** 3760x1200px, max 500Kbyte,
+    * **Design tulajdonságok:** A mintában megadott módon lehet felosztani a jobb és bal szélekre elhelyezhető reklám területeket. Nem kell élesen elkülöníteni ezeket a területeket, viszont oldalbetöltődéskor a jobb és bal széleken lévő területek nem fognak látszódni. Csak a mobil eszköz elfordítása után válnak láthatóvá. 
+    * **minta:** mobile_banner.jpg
 
 ##### Mozilla leírása a böngésző DeviceMotion események támogatottságról: https://developer.mozilla.org/en-US/docs/Web/API/DeviceMotionEvent
 
@@ -66,7 +68,13 @@ Az alábbi konfigurációs objektumban lehet beállítani kattintási kódot, k�
 ```
 
 ## parallax konfigurációs paraméterek
-* **isMobile**: "true" értéket kell megadni ha mobil megjelenésként vesszük fel. "false" értéket kell megadni, ha desktop megjelenéshez vesszük fel. [true/false]
-* **speed**: **Mobil megjelenés** esetén az eszköz mozgásérzékenységét tudjuk állítani. Egy olyan tört számot adhatunk meg, ami összeszorzódik a szenzor mért gyorsulás értékével. [9.5]
-* **IOSSpeed**: **Mobil megjelenés** esetén az eszköz mozgásérzékenységét tudjuk állítani. Egy olyan tört számot adhatunk meg, ami összeszorzódik a szenzor mért gyorsulás értékével. [0.030]
+* **isMobile**: **"true"** értéket kell megadni ha mobil megjelenésként vesszük fel. **"false"** értéket kell megadni, ha desktop megjelenéshez vesszük fel. **[true/false]**
+* **speed**: **Mobil megjelenés** esetén az eszköz mozgásérzékenységét tudjuk állítani **Nem IOS** környezetekben. Egy olyan tört számot adhatunk meg, ami összeszorzódik a szenzor mért gyorsulás értékével. 
+* **IOSSpeed**: **Mobil megjelenés** esetén az eszköz mozgásérzékenységét tudjuk állítani **IOS** környezetekben. Egy olyan tört számot adhatunk meg, ami összeszorzódik a szenzor mért gyorsulás értékével. 
+* **frequency**: **Mobil megjelenés** esetén a mozgásérzékelés frissítési gyakoriságát adhatjuk meg Hertz-ben. Ez egy mintavételezési sebesség. Akár tekinthető fps-ként is.
+* **pxLimit**: **Mobil megjelenés** esetén a parallax mobil banner kimozdíthatóságának a határa százalékban megadva. A megadott százalékban lehet csak elcsúsztatni a képet jobbra és balra.
+* **imagePosition**: **Mobil megjelenés** esetén a parallax mobil banner képét tudjuk pozícionálni.
+* **imageWidth**: **Mobil megjelenés** esetén a parallax mobil banner képét tudjuk méretezni.
+* **iconEffect**: **Mobil megjelenés** esetén az eszköz elfordítására buzdító piktogram css class megadásának lehetősége. A piktogram villogásának, illetve egyéb más figyelem felkeltő animációs tulajdonáságait itt tudjuk css class-okkal megadni.
 
+* **layerDepth**: **Desktop megjelenés** esetén az egér mozgását követő rétegek térérzet mélységének értékét tudjuk megadni. **[0.00 - 0.99]**
