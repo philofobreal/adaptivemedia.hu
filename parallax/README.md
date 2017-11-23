@@ -12,11 +12,11 @@ A "parallax" könyvtáron belül található "parallax_code.html" tartalmát kel
 
 * Desktop háttérkép tulajdonságai
     * Méret: 2048x2414px, max 500Kbyte,
-    * ** pl: ** desktop_background.jpg
+    * **pl:** desktop_background.jpg
 
 * Mobil háttérkép tulajdonságai
     * Méret: 3760x1200px, max 500Kbyte,
-    ** pl: ** mobile_banner.jpg
+    **pl:** mobile_banner.jpg
 
 ### Videó fájlok tulajdonságai:
 #### Képarány:16:9
