@@ -8,10 +8,10 @@ A "parallax" könyvtáron belül található "parallax_code.html" tartalmát kel
 
 ## A desktop és mobil megjelenéshez szükséges fájlok
 
-"AdaptiveMediaParallax.min.js"
-4 darab kép
-### Előnézeti kép tulajdonságai:
-#### Méret: 1160x773px, max 500Kbyte,
+"AdaptiveMediaParallax.min.js" és 4 darab kép
+
+* Háttérkép kép tulajdonságai
+    * Méret: 2048x2414px, max 500Kbyte,
 
 ### Videó fájlok tulajdonságai:
 #### Képarány:16:9
@@ -25,7 +25,7 @@ Ezeket a fájlokat fel kell venni az adengine-be és bekötni a "parallax_code.h
 
 ## "parallax_code.html" fájl felépítése és használata
 
-Az alábbi konfigurációs objektumban lehet beállítani kattintási kódot, előnézeti képet, statisztikai események URL kéréseit.
+Az alábbi konfigurációs objektumban lehet beállítani kattintási kódot, képekett, statisztikai események URL kéréseit és a működéshez szükséges beállításokat.
 
 ```html
     <script>
