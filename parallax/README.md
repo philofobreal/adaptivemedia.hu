@@ -39,7 +39,8 @@ Az alábbi konfigurációs objektumban lehet beállítani kattintási kódot, k�
             media: {
                 mobileBackgroundLayer: {
                     speed: 9.5,
-                    IOSSpeed: 0.030,
+                    androidFirefoxSpeed: 0.5,
+                    IOSSpeed: 0.60,
                     frequency: 50,
                     pxLimit: 21,
                     imagePosition: '-28%',
@@ -75,6 +76,7 @@ Az alábbi konfigurációs objektumban lehet beállítani kattintási kódot, k�
 
 * **isMobile**: **"true"** értéket kell megadni ha mobil megjelenésként vesszük fel. **"false"** értéket kell megadni, ha desktop megjelenéshez vesszük fel. **[true/false]**
 * **speed**: **Mobil megjelenés** esetén az eszköz mozgásérzékenységét tudjuk állítani **Nem IOS** környezetekben. Egy olyan tört számot adhatunk meg, ami összeszorzódik a szenzor mért gyorsulás értékével. 
+* **androidFirefoxSpeed**: **Mobil megjelenés** esetén az eszköz mozgásérzékenységét tudjuk állítani **android/firefox** környezetekben. Egy olyan tört számot adhatunk meg, ami összeszorzódik a szenzor mért gyorsulás értékével. 
 * **IOSSpeed**: **Mobil megjelenés** esetén az eszköz mozgásérzékenységét tudjuk állítani **IOS** környezetekben. Egy olyan tört számot adhatunk meg, ami összeszorzódik a szenzor mért gyorsulás értékével. 
 * **frequency**: **Mobil megjelenés** esetén a mozgásérzékelés frissítési gyakoriságát adhatjuk meg Hertz-ben. Ez egy mintavételezési sebesség. Akár tekinthető fps-ként is.
 * **pxLimit**: **Mobil megjelenés** esetén a parallax mobil banner kimozdíthatóságának a határa százalékban megadva. A megadott százalékban lehet csak elcsúsztatni a képet jobbra és balra.
