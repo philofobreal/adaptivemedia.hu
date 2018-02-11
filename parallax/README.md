@@ -27,7 +27,7 @@ Ezeket a fájlokat fel kell venni az adengine-be és bekötni a "parallax_code.h
 
 ## "parallax_code.html" fájl használata
 
-Az alábbi konfigurációs objektumban lehet beállítani kattintási kódot, képeket és a működéshez szükséges paramétereket. Desktop környezetben a desktop banner kódja alá kell bemásolni a teljes "parallax_code.html" fájl tartalmát.
+Az alábbi konfigurációs objektumban lehet beállítani kattintási kódot, képeket és a működéshez szükséges paramétereket. Desktop környezetben a desktop banner kódja alá kell bemásolni (Insert HTML) a teljes "parallax_code.html" fájl tartalmát.
 
 ```html
     ...
