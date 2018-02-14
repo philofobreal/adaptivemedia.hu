@@ -3,8 +3,8 @@
 Ez egy multiplatformos interaktív hirdetési típus. A felhasználó egér, oldal scroll, illetve mobil eszközének mozgását követi le a hirdetési anyag.
 
 ##### Ügyfeleknek szánt specifikációk: 
-###### https://docs.google.com/document/d/13HqEukS-THeycI-nzEFbLQ1Sv3kizp8tz-vLvnMR3UU/edit?usp=sharing
-###### https://docs.google.com/document/d/1WDrYZ6UKSMyZRzMHCsVuXmmnbLdCoe6fdAUA9yXvp6k/edit?usp=sharing
+###### Desktop skin: https://docs.google.com/document/d/13HqEukS-THeycI-nzEFbLQ1Sv3kizp8tz-vLvnMR3UU/edit?usp=sharing
+###### Mobile: https://docs.google.com/document/d/1WDrYZ6UKSMyZRzMHCsVuXmmnbLdCoe6fdAUA9yXvp6k/edit?usp=sharing
 
 ## Használata
 
