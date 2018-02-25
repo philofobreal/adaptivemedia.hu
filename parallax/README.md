@@ -19,6 +19,7 @@ A "parallax" könyvtáron belül található "parallax_code.html" tartalmát kel
     * **Méret:** 2048x2414px, max 500Kbyte,
     * **Design tulajdonságok:** A 444.hu háttérszínétől **whitesmoke: #f5f5f5** nagyban nem üthet el a desktop reklám grafikája. A mintán látható mennyiségű rekláminformáció szerepelhet csak a képen.
     * **minta:** desktop_background.jpg
+    * **2 db mozgó layer háttér kép: 2048 px széles és max 1600px magas, 300KByte méret képenként. A mintákon látható módon a középső homogén színű területre nem szabad grafikát elhelyezni.
 
 * **Mobil háttérkép tulajdonságai**
     * **Méret:** 3760x1200px, max 500Kbyte,
