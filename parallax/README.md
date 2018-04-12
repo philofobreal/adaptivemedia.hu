@@ -1,5 +1,5 @@
 
-## FIGYELEM: 65 chromium-on és a fölötti verziószámon chromium hiba miatt ki van kapcsolva a giroszkóp.
+## FIGYELEM: 65 chromium-on és az fölötti verziószámon chromium hiba miatt ki van kapcsolva a giroszkóp.
 # Adaptive Media - 444.hu Parallax technikai specifikáció
 
 Ez egy multiplatformos interaktív hirdetési típus. A felhasználó egér, oldal scroll, illetve mobil eszközének mozgását követi le a hirdetési anyag.
