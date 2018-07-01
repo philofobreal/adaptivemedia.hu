@@ -4,27 +4,32 @@ Ez a reklám típus videó tartalom megjelenítésére szolgál.
 
 ## Használata
 
-A "carousel.zip" fájlt kell felvenni az adengine-be.
+A "carousel.zip" fájlt kell felvenni az adengine-be. A benne található "index.html" 
+fájl tartalmát pedig be kell másolni az adengine-be az "insert HTML version" részhez.
 
 ## A használathoz szükséges fájlok
 
-2 videó fájl kell (MP4, Webm), [optionális]
-1 Háttérkép fájl (640 360)
-2 lapozható kép fájl
+2 videó fájl kell (MP4, Webm) [optionális], 
+1 Háttérkép fájl (640 360),
+2, vagy több lapozható kép fájl
 
-* **Kép tulajdonságai**:
-    * **Méret:** 1160x773px, max 500Kbyte,
+* **Képek tulajdonságai**:
+    * **Háttérkép:** 640x360px, max 300Kbyte
+        * A "avangerbg.png" képi mintán látható szaggatott területre kell elhelyezni a logót. A többi területre csak dizájn elemeket szabad elhelyezni. Mobilon a szaggatott terület szélességén kívül eső részek nem fognak látszani.
+    * **Lapozható képek:** 300x250px, max 200Kbyte
 
 * **Videó fájlok tulajdonságai**:
     * **Képarány:** 16:9
-* **Méret:** max 10Mbyte
+    * **Méret:** max 10Mbyte
     * **Első videó:** MP4, amelyben H.264 a videó és MP3 a hang enkódolása. 
     * **Második videó:** Webm, Vorbis enkódolású
 
 ##### Mozilla leírása a böngésző támogatottságról és enkódolásról: https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats
 ##### Online Webm - MP4 konverter: https://cloudconvert.com/webm-to-mp4
+##### Leírás az Online Webm - MP4 konverterhez:
+https://github.com/philofobreal/adaptivemedia.hu/blob/master/carousel/video_converter_webm_to_mp4.fw.png
 
-Az alábbi konfigurációs objektumban lehet beállítani kattintási kódot, előnézeti képet, statisztikai események URL kéréseit.
+Az alábbi konfigurációs objektumban lehet beállítani kattintási kódot, előnézeti képet, statisztikai események URL kéréseit. Ez a konfiguráció az "index.html" fájlban található a "carousel.zip" fájlon belül. 
 
 ```html
     <script>
@@ -93,13 +98,4 @@ Az alábbi konfigurációs objektumban lehet beállítani kattintási kódot, el
     </script>
 ```
 
-A <source> HTML tagok "src" attributumaiban lehet megadni a különböző videó fájl formátumok URL-jeit. Az első a Webm kiterjesztés, a második az MP4 kiterjesztés.
 
-```html
-    <video id="adaptiveMultiplexVideo" class="video-js vjs-default-skin" controls preload="auto" width="100%" height="100%" data-setup='{ "inactivityTimeout": 0 }' webkit-playsinline playsinline>
-        <source src="//bbcdn.go.cz.bbelements.com/creatives/b81/847/7/b818477/extra/egyenesen_at.webm" id="adaptiveMultiplexVideoWEBM" type="video/webm" />
-        <source src="//bbcdn.go.cz.bbelements.com/creatives/b81/847/7/b818477/extra/egyenesen_at.mp4" id="adaptiveMultiplexVideoMP4" type="video/mp4" />
-        <p class="vjs-no-js">To view this video please enable JavaScript, and consider upgrading to a web browser that <a href="http://videojs.com/html5-video-support/"
-            target="_blank">supports HTML5 video</a></p>
-        </video>
-```
