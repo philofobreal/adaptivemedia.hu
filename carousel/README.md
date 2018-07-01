@@ -5,7 +5,7 @@ Ez a reklám típus videó tartalom megjelenítésére és képek bemutatására
 ## Használata
 
 A "carousel.zip" fájlt kell felvenni az adengine-be. A benne található "index.html" 
-fájl tartalmát pedig be kell másolni az adengine-be az "insert HTML version" részhez.
+fájl tartalmát pedig be kell másolni az "insert HTML version" részhez.
 
 ## A használathoz szükséges fájlok
 
