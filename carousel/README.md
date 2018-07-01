@@ -16,10 +16,10 @@ A "carousel.zip" fájlt kell felvenni az adengine-be.
     * **Méret:** 1160x773px, max 500Kbyte,
 
 * **Videó fájlok tulajdonságai**:
-#### Képarány:16:9
-#### Méret: max 10Mbyte
-#### -Első videó: MP4, amelyben H.264 a videó és MP3 a hang enkódolása. 
-#### -Második videó: Webm, Vorbis enkódolású
+    * **Képarány:** 16:9
+* **Méret:** max 10Mbyte
+    * **Első videó:** MP4, amelyben H.264 a videó és MP3 a hang enkódolása. 
+    * **Második videó:** Webm, Vorbis enkódolású
 
 ##### Mozilla leírása a böngésző támogatottságról és enkódolásról: https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats
 ##### Online Webm - MP4 konverter: https://cloudconvert.com/webm-to-mp4
