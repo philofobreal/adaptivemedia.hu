@@ -8,16 +8,14 @@ A "carousel.zip" fájlt kell felvenni az adengine-be.
 
 ## A használathoz szükséges fájlok
 
-"adaptiveMultiplex.css"
-"adaptiveMultiplex.min.js"
 2 videó fájl kell (MP4, Webm), [optionális]
-1 Háttérkép fájl
+1 Háttérkép fájl (640 360)
 2 lapozható kép fájl
 
-### Előnézeti kép tulajdonságai:
-#### Méret: 1160x773px, max 500Kbyte,
+* **Kép tulajdonságai**:
+    * **Méret:** 1160x773px, max 500Kbyte,
 
-### Videó fájlok tulajdonságai:
+* **Videó fájlok tulajdonságai**:
 #### Képarány:16:9
 #### Méret: max 10Mbyte
 #### -Első videó: MP4, amelyben H.264 a videó és MP3 a hang enkódolása. 
@@ -25,10 +23,6 @@ A "carousel.zip" fájlt kell felvenni az adengine-be.
 
 ##### Mozilla leírása a böngésző támogatottságról és enkódolásról: https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats
 ##### Online Webm - MP4 konverter: https://cloudconvert.com/webm-to-mp4
-
-Ezeket a fájlokat fel kell venni az adengine-be és bekötni a "multiplex_code.html" fájlon belül látható módon a megfelelő helyekre.
-
-## "multiplex_code.html" fájl felépítése és használata
 
 Az alábbi konfigurációs objektumban lehet beállítani kattintási kódot, előnézeti képet, statisztikai események URL kéréseit.
 
