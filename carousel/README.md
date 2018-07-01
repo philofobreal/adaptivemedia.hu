@@ -1,6 +1,6 @@
 # Adaptive Media - Carousel megjelenés
 
-Ez a reklám típus videó tartalom megjelenítésére szolgál.
+Ez a reklám típus videó tartalom megjelenítésére és képek bemutatására szolgál.
 
 ## Használata
 
@@ -11,7 +11,7 @@ fájl tartalmát pedig be kell másolni az adengine-be az "insert HTML version" 
 
 2 videó fájl kell (MP4, Webm) [optionális], 
 1 Háttérkép fájl (640 360),
-2, vagy több lapozható kép fájl
+2 (vagy több) lapozható kép fájl
 
 * **Képek tulajdonságai**:
     * **Háttérkép:** 640x360px, max 300Kbyte
@@ -26,8 +26,7 @@ fájl tartalmát pedig be kell másolni az adengine-be az "insert HTML version" 
 
 ##### Mozilla leírása a böngésző támogatottságról és enkódolásról: https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats
 ##### Online Webm - MP4 konverter: https://cloudconvert.com/webm-to-mp4
-##### Leírás az Online Webm - MP4 konverterhez:
-https://github.com/philofobreal/adaptivemedia.hu/blob/master/carousel/video_converter_webm_to_mp4.fw.png
+##### Leírás az Online Webm - MP4 konverterhez: https://github.com/philofobreal/adaptivemedia.hu/blob/master/carousel/video_converter_webm_to_mp4.fw.png
 
 Az alábbi konfigurációs objektumban lehet beállítani kattintási kódot, előnézeti képet, statisztikai események URL kéréseit. Ez a konfiguráció az "index.html" fájlban található a "carousel.zip" fájlon belül. 
 
