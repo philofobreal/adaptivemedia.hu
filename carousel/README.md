@@ -32,109 +32,113 @@ Az alábbi konfigurációs objektumban lehet beállítani kattintási kódot, el
 
 # Videós változat
 ```html
+<div>
+    <link href=%%URL%%/static/css/app.eb04dc2575c1983bf6a393054adb4415.css rel=stylesheet>
     <script>
         window.adaptiveMediaCarousel = {
-            clickURL: "http://adaptivemedia.hu",
-            clickTarget: "_blank",
-            hasVideo: true,
-            backgroundImage: 'https://bbcdn.go.cz.bbelements.com/creatives/cdn12653/b88/359/5/b883595/extra/avangerbg_minta_03.fw.png',
-            images: [
-                'https://bbcdn.go.cz.bbelements.com/creatives/cdn12653/b88/359/5/b883595/extra/avangers2_05.fw.png',
-                'https://bbcdn.go.cz.bbelements.com/creatives/cdn12653/b88/359/5/b883595/extra/avangers_tanos_06.fw.png'
-            ],
-            multiplex: {
-                clickURL: "http://adaptivemedia.hu",
-                clickTarget: "_blank",
-                video: {
-                url: {
-                    WEBM: "https://bbcdn.go.cz.bbelements.com/creatives/cdn12653/b88/359/5/b883595/extra/infinitywar.webm",
-                    MP4: "https://bbcdn.go.cz.bbelements.com/creatives/cdn12653/b88/359/5/b883595/extra/infinitywar.mp4",
-                    previewImage: "https://bbcdn.go.cz.bbelements.com/creatives/cdn12653/b88/359/5/b883595/extra/maxresdefault1.jpg"
-                },
-                events: {
-                    manual_expand: "https://go.eu.bbelements.com/please/track/adDisplay/campaign/196751/plan/769887/banner/824621/bannerType/9/?",
-                    end: "https://go.eu.bbelements.com/please/track/adDisplay/campaign/196751/plan/769890/banner/824621/bannerType/9/?",
-                    proc01: {
-                    percentage: 50,
-                    url: "https://go.eu.bbelements.com/please/track/adDisplay/campaign/196751/plan/769882/banner/824621/bannerType/9/?"
-                    },
-                    proc02: {
-                    percentage: 75,
-                    url: "https://go.eu.bbelements.com/please/track/adDisplay/campaign/196751/plan/769884/banner/824621/bannerType/9/?"
-                    }
-                }
-                }
+      clickURL: "http://adaptivemedia.hu",
+      clickTarget: "_blank",
+      hasVideo: true,
+      backgroundImage: 'https://bbcdn.go.cz.bbelements.com/creatives/cdn12653/b88/359/5/b883595/extra/avangerbg_minta_03.fw.png',
+      images: [
+        'https://bbcdn.go.cz.bbelements.com/creatives/cdn12653/b88/359/5/b883595/extra/avangers2_05.fw.png',
+        'https://bbcdn.go.cz.bbelements.com/creatives/cdn12653/b88/359/5/b883595/extra/avangers_tanos_06.fw.png'
+      ],
+      multiplex: {
+        clickURL: "http://adaptivemedia.hu",
+        clickTarget: "_blank",
+        video: {
+          url: {
+            WEBM: "https://bbcdn.go.cz.bbelements.com/creatives/cdn12653/b88/359/5/b883595/extra/infinitywar.webm",
+            MP4: "https://bbcdn.go.cz.bbelements.com/creatives/cdn12653/b88/359/5/b883595/extra/infinitywar.mp4",
+            previewImage: "https://bbcdn.go.cz.bbelements.com/creatives/cdn12653/b88/359/5/b883595/extra/maxresdefault1.jpg"
+          },
+          events: {
+            manual_expand: "https://go.eu.bbelements.com/please/track/adDisplay/campaign/196751/plan/769887/banner/824621/bannerType/9/?",
+            end: "https://go.eu.bbelements.com/please/track/adDisplay/campaign/196751/plan/769890/banner/824621/bannerType/9/?",
+            proc01: {
+              percentage: 50,
+              url: "https://go.eu.bbelements.com/please/track/adDisplay/campaign/196751/plan/769882/banner/824621/bannerType/9/?"
             },
-            swiperConfig: {
-                allowTouchMove: false,        
-                direction: "horizontal",
-                loop: false,
-                simulateTouch: false,
-
-                keyboard: {
-                    enabled: true,
-                    onlyInViewport: false,
-                },
-
-                autoplay: {
-                    delay: 2500,
-                    disableOnInteraction: false,
-                },
-                
-                pagination: {
-                    el: ".swiper-pagination"
-                },
-
-                navigation: {
-                    nextEl: ".swiper-button-next",
-                    prevEl: ".swiper-button-prev"
-                }
+            proc02: {
+              percentage: 75,
+              url: "https://go.eu.bbelements.com/please/track/adDisplay/campaign/196751/plan/769884/banner/824621/bannerType/9/?"
             }
+          }
         }
-
+      },
+      swiperConfig: {
+        allowTouchMove: false,        
+        direction: "horizontal",
+        loop: false,
+        simulateTouch: false,
+        keyboard: {
+          enabled: true,
+          onlyInViewport: false,
+        },
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination"
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev"
+        }
+      }
+    }
     </script>
+    <div id=app></div>
+</div>
+<script type=text/javascript src=%%URL%%/static/js/manifest.7f8e78a1907289d7b77b.js></script> 
+<script type=text/javascript src=%%URL%%/static/js/vendor.566df8ce6f69e6fccca6.js></script> 
+<script type=text/javascript src=%%URL%%/static/js/app.1d16d6a850be115c1b72.js></script>
 ```
 
 
 # Videó nélküli változat
 
 ```html
+<div>
+    <link href=%%URL%%/static/css/app.eb04dc2575c1983bf6a393054adb4415.css rel=stylesheet>
     <script>
         window.adaptiveMediaCarousel = {
-            clickURL: "http://adaptivemedia.hu",
-            clickTarget: "_blank",
-            hasVideo: true,
-            backgroundImage: 'https://bbcdn.go.cz.bbelements.com/creatives/cdn12653/b88/359/5/b883595/extra/avangerbg_minta_03.fw.png',
-            images: [
-                'https://bbcdn.go.cz.bbelements.com/creatives/cdn12653/b88/359/5/b883595/extra/avangers2_05.fw.png',
-                'https://bbcdn.go.cz.bbelements.com/creatives/cdn12653/b88/359/5/b883595/extra/avangers_tanos_06.fw.png'
-            ],
-            swiperConfig: {
-                allowTouchMove: false,        
-                direction: "horizontal",
-                loop: false,
-                simulateTouch: false,
-
-                keyboard: {
-                    enabled: true,
-                    onlyInViewport: false,
-                },
-
-                autoplay: {
-                    delay: 2500,
-                    disableOnInteraction: false,
-                },
-                
-                pagination: {
-                    el: ".swiper-pagination"
-                },
-
-                navigation: {
-                    nextEl: ".swiper-button-next",
-                    prevEl: ".swiper-button-prev"
-                }
-            }
+      clickURL: "http://adaptivemedia.hu",
+      clickTarget: "_blank",
+      hasVideo: true,
+      backgroundImage: 'https://bbcdn.go.cz.bbelements.com/creatives/cdn12653/b88/359/5/b883595/extra/avangerbg_minta_03.fw.png',
+      images: [
+        'https://bbcdn.go.cz.bbelements.com/creatives/cdn12653/b88/359/5/b883595/extra/avangers2_05.fw.png',
+        'https://bbcdn.go.cz.bbelements.com/creatives/cdn12653/b88/359/5/b883595/extra/avangers_tanos_06.fw.png'
+      ],
+      swiperConfig: {
+        allowTouchMove: false,        
+        direction: "horizontal",
+        loop: false,
+        simulateTouch: false,
+        keyboard: {
+          enabled: true,
+          onlyInViewport: false,
+        },
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination"
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev"
         }
-
+      }
+    }
     </script>
+    <div id=app></div>
+</div>
+<script type=text/javascript src=%%URL%%/static/js/manifest.7f8e78a1907289d7b77b.js></script> 
+<script type=text/javascript src=%%URL%%/static/js/vendor.566df8ce6f69e6fccca6.js></script> 
+<script type=text/javascript src=%%URL%%/static/js/app.1d16d6a850be115c1b72.js></script>
 ```
