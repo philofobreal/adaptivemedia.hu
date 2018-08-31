@@ -1,1 +1,1 @@
-# adaptivemedia.hu
+# Adaptivemedia productions
