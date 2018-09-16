@@ -80,7 +80,7 @@ Az alábbi konfigurációs objektumban lehet beállítani kattintási kódot, k�
 
 ## parallax konfigurációs paraméterek
 * **layerDepth**: **Desktop megjelenés** esetén az egér mozgását követő rétegek tér érzetének mélységi értékét tudjuk megadni. **[0.00 - 0.99]**
-* **clickLayerHeight**: **Desktop megjelenés** esetén a kattintási felület két oldalának a magasságát lehet megadni számban. **[default: 2500]**
+* **clickLayerHeight**: **Desktop megjelenés** esetén a kattintási felület két oldalának a magasságát lehet megadni számban. Ezt a paramétert a "clickTarget" és a "clickURL" mellett lehet megadni. Ha nem adjuk meg ezt a paramétert, az értéke alapértelmezetten **2500**
 
 * **isMobile**: **"true"** értéket kell megadni ha mobil megjelenésként vesszük fel. **"false"** értéket kell megadni, ha desktop megjelenéshez vesszük fel. **[true/false]**
 * **speed**: **Mobil megjelenés** esetén az eszköz mozgásérzékenységét tudjuk állítani **Nem IOS** környezetekben. Egy olyan tört számot adhatunk meg, ami összeszorzódik a szenzor mért gyorsulás értékével. 
