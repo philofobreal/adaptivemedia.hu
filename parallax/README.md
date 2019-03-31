@@ -54,6 +54,10 @@ Az alábbi konfigurációs objektumban lehet beállítani kattintási kódot, k�
                     imageWidth: '122%',
                     iconEffect: 'blinker blink_me',
                     imageUrl: 'https://bbcdn.go.cz.bbelements.com/creatives/....../...../.../mobile_banner.jpg',
+                    videoUrl: {
+                        webm: 'https://interactive-examples.mdn.mozilla.net/media/examples/flower.webm',
+                        mp4: 'https://interactive-examples.mdn.mozilla.net/media/examples/flower.mp4'
+                    }
                 },
                 backgroundLayers: [
                     {
@@ -91,3 +95,4 @@ Az alábbi konfigurációs objektumban lehet beállítani kattintási kódot, k�
 * **imagePosition**: **Mobil megjelenés** esetén a parallax mobil banner képét tudjuk pozícionálni.
 * **imageWidth**: **Mobil megjelenés** esetén a parallax mobil banner képét tudjuk méretezni.
 * **iconEffect**: **Mobil megjelenés** esetén az eszköz elfordítására buzdító piktogram css class megadásának lehetősége. A piktogram villogásának, illetve egyéb más figyelem felkeltő animációs tulajdonáságait itt tudjuk css class-okkal megadni.
+* **videoUrl**: **Mobil megjelenés** esetén, ha megadjuk ezt az objektumot a banne lévő **{webm:'',mp4:''}** paraméterek megadásával a bannerben elhelyezett kép statikus marad. Csak a kép középső része fog látszani. A kép mögé pedig megpróbálja majd betölteni először a webm, majd, ha azt nem sikerült az mp4 típusú videókat. Ez által elhelyezhető giroszkóp hatására mozgó videó a banner képe mögé.
