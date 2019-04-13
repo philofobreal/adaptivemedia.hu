@@ -45,11 +45,14 @@ Az alábbi konfigurációs objektumban lehet beállítani kattintási kódot, k�
             isMobile: true,
             media: {
                 mobileBackgroundLayer: {
-                    speed: 9.5,
-                    androidFirefoxSpeed: 0.5,
-                    IOSSpeed: 0.60,
-                    frequency: 50,
-                    pxLimit: 21,
+                    speed: 0.05,
+                    androidFirefoxSpeed: 0.05,
+                    IOSSpeed: 0.060,
+                    frequency: 100,
+                    pxLimit: 15,
+                    playbackRate: 0.5,
+                    gyronormWork: true,
+                    imageSizeRate: 3.3,
                     imagePosition: '-28%',
                     imageWidth: '122%',
                     iconEffect: 'blinker blink_me',
@@ -96,3 +99,4 @@ Az alábbi konfigurációs objektumban lehet beállítani kattintási kódot, k�
 * **imageWidth**: **Mobil megjelenés** esetén a parallax mobil banner képét tudjuk méretezni.
 * **iconEffect**: **Mobil megjelenés** esetén az eszköz elfordítására buzdító piktogram css class megadásának lehetősége. A piktogram villogásának, illetve egyéb más figyelem felkeltő animációs tulajdonáságait itt tudjuk css class-okkal megadni.
 * **videoUrl**: **Mobil megjelenés** esetén, ha megadjuk ezt az objektumot a banne lévő **{webm:'',mp4:''}** paraméterek megadásával a bannerben elhelyezett kép statikus marad. Csak a kép középső része fog látszani. A kép mögé pedig megpróbálja majd betölteni először a webm, majd, ha azt nem sikerült az mp4 típusú videókat. Ez által elhelyezhető giroszkóp hatására mozgó videó a banner képe mögé.
+* **playbackRate**: **Mobil megjelenés** esetén a videólejátszás sebességének szorzója.
