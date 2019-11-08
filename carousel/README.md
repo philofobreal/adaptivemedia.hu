@@ -15,7 +15,7 @@ fájl tartalmát pedig be kell másolni az "insert HTML version" részhez.
 
 * **Képek tulajdonságai**:
     * **Háttérkép:** 640x360px, max 300Kbyte
-        * A "avangerbg.png" képi mintán látható szaggatott területre kell elhelyezni a logót. A többi területre csak dizájn elemeket szabad elhelyezni. Mobilon a szaggatott terület szélességén kívül eső részek nem fognak látszani.
+        * A "avangerbg.png" képi mintán látható szaggatott területre kell elhelyezni a logót. A többi területre csak dizájn elemeket szabad elhelyezni. Mobilon a szaggatott terület szélességén kívül eső részek nem fognak látszani. Ennek a területnek a mérete 320x40px.
     * **Lapozható képek:** 300x250px, max 200Kbyte
 
 * **Videó fájlok tulajdonságai**:
