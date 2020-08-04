@@ -103,7 +103,7 @@ Az alábbi konfigurációs objektumban lehet beállítani kattintási kódot, el
     window.adaptiveMediaCarousel = {
       clickURL: "http://adaptivemedia.hu",
       clickTarget: "_blank",
-      hasVideo: true,
+      hasVideo: false,
       backgroundImage: 'https://bbcdn.go.cz.bbelements.com/creatives/cdn12653/b88/359/5/b883595/extra/avangerbg_minta_03.fw.png',
       images: [
         'https://bbcdn.go.cz.bbelements.com/creatives/cdn12653/b88/359/5/b883595/extra/avangers2_05.fw.png',
