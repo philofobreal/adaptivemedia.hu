@@ -88,7 +88,7 @@ Az alábbi konfigurációs objektumban lehet beállítani kattintási kódot, el
         }
     }
 </script>
-<div id=app></div>
+<div id="app"></div>
 <link href=%%URL%%/static/css/app.eb04dc2575c1983bf6a393054adb4415.css rel=stylesheet>
 <script type=text/javascript src=%%URL%%/static/js/manifest.7f8e78a1907289d7b77b.js></script> 
 <script type=text/javascript src=%%URL%%/static/js/vendor.566df8ce6f69e6fccca6.js></script> 
@@ -132,7 +132,7 @@ Az alábbi konfigurációs objektumban lehet beállítani kattintási kódot, el
       }
     }
 </script>
-<div id=app></div>
+<div id="app"></div>
 <link href=%%URL%%/static/css/app.eb04dc2575c1983bf6a393054adb4415.css rel=stylesheet>
 <script type=text/javascript src=%%URL%%/static/js/manifest.7f8e78a1907289d7b77b.js></script> 
 <script type=text/javascript src=%%URL%%/static/js/vendor.566df8ce6f69e6fccca6.js></script> 
